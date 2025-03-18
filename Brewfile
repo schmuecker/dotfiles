@@ -22,6 +22,7 @@ brew 'bun'
 brew 'poetry'
 brew 's3cmd'
 brew 'tlrc'
+brew 'uv'
 brew 'zoxide'
 
 cask '1password-cli'
