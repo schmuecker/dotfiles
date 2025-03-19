@@ -11,3 +11,7 @@ mas install 6446206067
 mas install 1287239339
 # Tadama
 mas install 1415817706
+# Spark
+mas install 6445813049
+# Command X
+mas install 6448461551
