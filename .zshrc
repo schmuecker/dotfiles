@@ -74,6 +74,7 @@ zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 alias ls='eza -a -gF --icons --group-directories-first --hyperlink'
 alias vim='nvim'
 alias c='clear'
+alias home='cd ~'
 
 # Shell integrations
 eval "$(fzf --zsh)"
