@@ -75,6 +75,8 @@ alias ls='eza -a -gF --icons --group-directories-first --hyperlink'
 alias vim='nvim'
 alias c='clear'
 alias home='cd ~'
+alias i='ni'
+alias run='nr'
 
 # Shell integrations
 eval "$(fzf --zsh)"
@@ -83,3 +85,4 @@ eval "$(zoxide init --cmd cd zsh)"
 # Custom directories
 export N_PREFIX=$HOME/.n
 export PATH=$N_PREFIX/bin:$PATH
+export PATH="/Users/tobias/.bun/bin:$PATH"
