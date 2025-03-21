@@ -55,7 +55,7 @@ cask 'telegram-desktop'
 cask 'telegram'
 cask 'tinkerwell'
 cask 'visual-studio-code'
-
+cask 'zen-browser'
 
 # Quicklook
 cask 'qlmarkdown'
