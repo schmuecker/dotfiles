@@ -20,7 +20,6 @@ source "${ZINIT_HOME}/zinit.zsh"
 # General settings
 setopt autocd
 
-
 # Add in Powerlevel10k
 zinit ice depth=1; zinit light romkatv/powerlevel10k
 
@@ -81,8 +80,9 @@ alias run='nr'
 # Shell integrations
 eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
+eval "$(fnm env --use-on-cd --shell zsh)"
 
 # Custom directories
-export N_PREFIX=$HOME/.n
 export PATH=$N_PREFIX/bin:$PATH
 export PATH="/Users/tobias/.bun/bin:$PATH"
+
