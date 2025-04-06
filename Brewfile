@@ -52,9 +52,9 @@ cask 'raycast'
 cask 'tableplus'
 cask 'telegram-desktop'
 cask 'telegram'
+cask 'automattic-texts'
 cask 'visual-studio-code'
 cask 'zed'
-cask 'zen-browser'
 
 # Quicklook
 cask 'qlmarkdown'
