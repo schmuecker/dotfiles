@@ -77,6 +77,7 @@ alias c='clear'
 alias home='cd ~'
 alias i='ni'
 alias run='nr'
+alias lg='lazygit'
 
 # Shell integrations
 eval "$(fzf --zsh)"
