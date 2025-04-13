@@ -15,3 +15,7 @@ mas install 1415817706
 mas install 6445813049
 # Command X
 mas install 6448461551
+# Refined Github (Safari)
+mas install 1519867270
+# Noir - Dark Mode for Safari
+mas install 1592917505

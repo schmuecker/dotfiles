@@ -69,15 +69,19 @@ zstyle ':completion:*' menu no
 zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'
 zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 
-# Aliases
+# Aliases - General
 alias ls='eza -a -gF --icons --group-directories-first --hyperlink'
 alias vim='nvim'
 alias diff='delta'
 alias c='clear'
 alias home='cd ~'
+alias lg='lazygit'
+# Aliases - Web development
 alias i='ni'
 alias run='nr'
-alias lg='lazygit'
+alias dev='run dev'
+alias build='run build'
+alias start='run start'
 
 # Shell integrations
 eval "$(fzf --zsh)"
@@ -87,4 +91,5 @@ eval "$(fnm env --use-on-cd --shell zsh)"
 # Custom directories
 export PATH=$N_PREFIX/bin:$PATH
 export PATH="/Users/tobias/.bun/bin:$PATH"
+export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
 
