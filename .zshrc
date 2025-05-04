@@ -76,6 +76,7 @@ alias diff='delta'
 alias c='clear'
 alias home='cd ~'
 alias lg='lazygit'
+
 # Aliases - Web development
 alias i='ni'
 alias run='nr'
@@ -86,10 +87,12 @@ alias start='run start'
 # Shell integrations
 eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
-eval "$(fnm env --use-on-cd --shell zsh)"
+eval "$(fnm env --use-on-cd --shell zsh)" > /dev/null 2>&1
 
 # Custom directories
 export PATH=$N_PREFIX/bin:$PATH
 export PATH="/Users/tobias/.bun/bin:$PATH"
 export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
+
+
 

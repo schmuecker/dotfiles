@@ -19,3 +19,5 @@ mas install 6448461551
 mas install 1519867270
 # Noir - Dark Mode for Safari
 mas install 1592917505
+# Perplexity
+mas install 6714467650
