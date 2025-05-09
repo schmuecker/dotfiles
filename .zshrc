@@ -80,9 +80,13 @@ alias lg='lazygit'
 # Aliases - Web development
 alias i='ni'
 alias run='nr'
+alias ir='i && run'
 alias dev='run dev'
+alias id='i && dev'
 alias build='run build'
+alias ib='i && build'
 alias start='run start'
+alias bs='build && start'
 
 # Shell integrations
 eval "$(fzf --zsh)"

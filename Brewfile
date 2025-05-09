@@ -32,6 +32,7 @@ brew 'zoxide'
 
 cask '1password-cli'
 cask '1password'
+cask 'alt-tab'
 cask 'automattic-texts'
 cask 'bruno'
 cask 'chatgpt'
