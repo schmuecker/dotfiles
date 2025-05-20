@@ -74,6 +74,7 @@ alias ls='eza -a -gF --icons --group-directories-first --hyperlink'
 alias vim='nvim'
 alias diff='delta'
 alias c='clear'
+alias .='open .'
 alias home='cd ~'
 alias lg='lazygit'
 
