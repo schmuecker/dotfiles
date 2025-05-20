@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-ln -s .zshrc ~/.zshrc_new
+ln -s "$(pwd)/.zshrc" ~/.zshrc
