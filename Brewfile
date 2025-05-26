@@ -9,6 +9,7 @@ tap 'oven-sh/bun'
 # Binaries
 brew 'bat'
 brew 'bun'
+brew 'codex'
 brew 'eza'
 brew 'doppler'
 brew 'fd'
