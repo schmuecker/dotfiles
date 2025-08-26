@@ -101,3 +101,6 @@ export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
 
 
 
+
+# bun completions
+[ -s "/Users/tobias/.bun/_bun" ] && source "/Users/tobias/.bun/_bun"

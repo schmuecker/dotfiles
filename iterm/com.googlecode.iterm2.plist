@@ -467,6 +467,8 @@
 	<false/>
 	<key>HotkeyMigratedFromSingleToMulti</key>
 	<true/>
+	<key>IRMemory</key>
+	<integer>4</integer>
 	<key>MinimalTabStyleOutlineStrength</key>
 	<real>0.10000000149011612</real>
 	<key>New Bookmarks</key>
@@ -1556,6 +1558,8 @@
 			<true/>
 			<key>Normal Font</key>
 			<string>DankMonoNFM-Regular 14</string>
+			<key>Open Password Manager Automatically</key>
+			<true/>
 			<key>Option Key Sends</key>
 			<integer>0</integer>
 			<key>Prompt Before Closing 2</key>
