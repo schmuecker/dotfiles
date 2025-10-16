@@ -51,11 +51,13 @@ cask 'pronotes'
 cask 'raycast'
 cask 'tableplus'
 cask 'telegram'
+cask 'upscayl'
 cask 'visual-studio-code'
 cask 'zed'
 
 # Quicklook
 cask 'qlmarkdown'
+cask 'qlvideo'
 cask 'quicklook-json'
 
 # Fonts
